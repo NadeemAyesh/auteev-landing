@@ -1,0 +1,812 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Required meta tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/libs/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/libs/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/libs/perfect-scrollbar-master/css/perfect-scrollbar.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- FavIcon Links for all devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- FavIcon Links for all devices -->
+
+    <title>Auteev Landing</title>
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+    
+        body {
+            background: #EDEDED;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+            /* background: #000; */
+            z-index: 2;
+        }
+    
+        .swiper-slide {
+            font-size: 18px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 40px 60px;
+        }
+    
+        .parallax-bg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 8545%;
+            height: 100%;
+            background-size: auto;
+            background-position: left calc(100% - 158px);
+            background-repeat: no-repeat;
+        }
+
+        .parallax-bg2-cloude {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 400%;
+            height: 100%;
+            background-size: auto;
+            background-position: left 50px;
+            background-repeat: no-repeat;
+        }
+    
+        .swiper-slide .title {
+            font-size: 41px;
+            font-weight: 300;
+        }
+    
+        .swiper-slide .subtitle {
+            font-size: 21px;
+        }
+    
+        .swiper-slide .text {
+            font-size: 14px;
+            max-width: 400px;
+            line-height: 1.3;
+        }
+
+        /* .swiper-pagination {
+            display: none;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <aside class="left-slide-nav">
+        <div id="psContainer" class="left-side-container">
+            <header class="side-header">
+                <span>Menu</span>
+                <button type="button" class="btn btn-link close-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8.933" height="15.038" viewBox="0 0 8.933 15.038">
+                        <defs>
+                            <style>
+                                .amenu-close {
+                                    fill: none;
+                                    stroke: #ff4e00;
+                                    stroke-linecap: round;
+                                    stroke-width: 2px;
+                                }
+                            </style>
+                        </defs>
+                        <g transform="translate(363.914 -8.086)">
+                            <line class="amenu-close" x2="6.105" y2="6.105" transform="translate(-356.395 21.71) rotate(180)" />
+                            <line class="amenu-close" x1="6.105" y2="6.105" transform="translate(-356.395 15.605) rotate(180)" />
+                        </g>
+                    </svg>
+                </button>
+            </header>
+
+            <nav class="side-nav">
+                <ul class="list-unstyled">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About auteev</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About auteev</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About auteev</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="download-app">
+                <div class="mb-4 text-center">
+                    <p>Download</p>
+                    <img src="assets/images/logo.png" alt="" title="" class="img-fluid" />
+                </div>
+
+                <div class="mb-4 text-center">
+                    <p>User app</p>
+                    <a href="" class="btn"><img src="assets/images/google.svg" alt="" /></a>
+                    <a href="" class="btn"><img src="assets/images/apple.svg" alt="" /></a>
+                </div>
+
+                <div class="mb-4 text-center">
+                    <p>Recovery app</p>
+                    <a href="" class="btn"><img src="assets/images/google.svg" alt="" /></a>
+                    <a href="" class="btn"><img src="assets/images/apple.svg" alt="" /></a>
+                </div>
+            </div>
+            <footer class="side-footer">
+                <hr>
+                <a href="" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="13.563" height="15.501"
+                        viewBox="0 0 13.563 15.501">
+                        <defs>
+                            <style>
+                                .a-user-ico {
+                                    fill: #777;
+                                }
+                            </style>
+                        </defs>
+                        <path class="a-user-ico"
+                            d="M6.782,7.75A3.875,3.875,0,1,0,2.906,3.875,3.875,3.875,0,0,0,6.782,7.75Zm2.9.987L8.235,14.532l-.969-4.117.969-1.7H5.328l.969,1.7-.969,4.117L3.881,8.737A4.062,4.062,0,0,0,0,12.788v1.259A1.454,1.454,0,0,0,1.453,15.5H12.11a1.454,1.454,0,0,0,1.453-1.453V12.788A4.062,4.062,0,0,0,9.682,8.737Z" />
+                    </svg> garage login</a>
+            
+                <p>or</p>
+            
+                <a href="" class="btn btn-link">order a new account</a>
+            </footer>
+        </div>
+        
+
+    </aside>
+    
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <header class="main-header">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="d-flex align-items-start">
+                        <button type="button" class="btn btn-link menu-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="18" viewBox="0 0 27 18">
+                                <defs>
+                                    <style>
+                                        .abc {
+                                            fill: none;
+                                            stroke: #fd8b23;
+                                            stroke-linecap: round;
+                                            stroke-width: 4px;
+                                        }
+                                    </style>
+                                </defs>
+                                <g transform="translate(-45.5 -31.5)">
+                                    <line class="abc" x2="23" transform="translate(47.5 33.5)" />
+                                    <line class="abc" x2="23" transform="translate(47.5 40.5)" />
+                                    <line class="abc" x2="23" transform="translate(47.5 47.5)" />
+                                </g>
+                            </svg>
+                        </button>
+                        <div class="flex-grow-1 text-center">
+                            <a href="" class="navbar-brand text-center m-0">
+                                <img src="assets/images/logo.png" alt="" title="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="parallax-bg" style="background-image:url(assets/images/bg-2.png)" data-swiper-parallax="-8%"></div>
+        <div class="parallax-bg2-cloude laya-pls" style="background-image:url(assets/images/cloud.png)" data-swiper-parallax="-50%"></div>
+        <div class="car-moving">
+            <div class="text-right car-holder" style="margin-top: 100px; margin-bottom: 60px;">
+                <img src="assets/images/car-2.svg" alt="" title="" class="img-fluid" />
+                <div class="wheel wheel-left"></div>
+                <div class="wheel wheel-right"></div>
+            </div>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+
+                <div class="hero">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h1>Your Car <br>
+                                Service is Going</h1>
+                                <h2>Digital</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                
+                <div class="d-table w-100 h-100 second-page">
+                    <div class="d-table-cell" style="vertical-align: bottom; padding-bottom: 100px;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="d-flex justify-content-center">
+                                        <h2>
+                                            Create<br>
+                                            Your Free <br> <span>Account</span>
+                                        </h2>
+                                        
+                                        <img src="assets/images/two-mobiles.png" alt="" title="" class="img-fluid" />
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <div class="second-description">
+                                        <h2>It’s time to go</h2>
+                                        <h3  style="font-style: normal;">digital</h3>
+
+                                        <p>
+                                            Auteev is here to digitize your entire administrative workflow. Use it for your vehicle inspection checklist, all
+                                            required repair documents and even billing. Using Auteev is not only efficient, but eco-friendly too!
+                                        </p>
+
+                                        <div class="d-flex">
+                                            <a href="" class="btn p-0"><img src="assets/images/google.svg" alt=" " /></a>
+                                            <a href="" class="btn p-0"><img src="assets/images/apple.svg" alt=" " /></a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" style="z-index: 99;">
+                <div class="d-table w-100 h-100 therd-page">
+                    <div class="d-table-cell" style="vertical-align: bottom;">
+                        <div class="container">
+                            <div class="row justify-content-between">
+                                <div class="col-lg-4">
+                                    <figure class="screen-img0">
+                                        <img src="assets/images/screen.png" alt="" title="" class="img-fluid" />
+                                    </figure>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="three-slide-description">
+                                        <h3>+add your cars and Connect to</h3>
+
+                                        <h4>Your Auto Service Repair Shop</h4>
+
+                                        <p>
+                                            Simply add your car information into our app and connect with your repair shop. This is how you will be able to get
+                                            updates like “we need to get a new part” or “your car is ready for pick-up.
+
+                                        </p>
+                                        <p>Taking your car in for service has never been easier. No more waiting for hours or days without updates on your vehicle.
+                                        With Auteev, your auto repair company will update you through our app, instantly. Forget having to wait on hold or hope
+                                        that someone will get back to you. We make the communication process easy and fast. Download now!
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="d-table w-100 h-100">
+                    <div class="d-table-cell" style="vertical-align: middle;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="managment-text px-5">
+                                        <h2>
+                                            Garage <br> <span>Management</span>
+                                        </h2>
+
+                                        <p>
+                                            Are you a repair shop owner? Move forward with Auteev to handle the communication with your customers, monitor your
+                                            workshop, manage your staff, and record your finance!! Increase productivity and profitability by Join AUTEEV today!
+                                        </p>
+
+                                        <a href="" class="btn btn-lg btn-warning">Login</a>
+                                    </div>
+                                </div>
+                
+                                <div class="col-lg-5">
+                                    <figure class="managment-img">
+                                        <img src="assets/images/General Information.svg" alt="" title="" />
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="holder-e3lanat">
+                                <img src="assets/images/logo-e3lan.png" alt="" title="" class="img-fluid logo-e3lan" />
+                                <img src="assets/images/car-eng.png" alt="" class="car-img-eng" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="d-table w-100 h-100">
+                    <div class="d-table-cell" style="vertical-align: middle;">
+                        <div class="container-fluid video-slide">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6">
+                                    <a data-fancybox="" href="#myVideo">
+                                        <figure class="video-img">
+                                            <img src="assets/images/video.png" alt="" title="" class="coverimg" />
+                                            <div class="vid-ico">
+                                                view video
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="49" height="57" viewBox="0 0 49 57">
+                                                    <defs>
+                                                        <style>
+                                                            .a {
+                                                                fill: #fff;
+                                                            }
+                                                        </style>
+                                                    </defs>
+                                                    <path class="a"
+                                                        d="M25.042,5.945a4,4,0,0,1,6.915,0L53.5,42.989A4,4,0,0,1,50.046,49H6.954A4,4,0,0,1,3.5,42.989Z"
+                                                        transform="translate(49) rotate(90)" />
+                                                </svg>
+                                            </div>
+                                        </figure>
+                                    </a>
+                                    <video controls id="myVideo" style="display:none; width: 100%; height: auto;">
+                                        <source src="https://www.html5rocks.com/en/tutorials/video/basics/Chrome_ImF.mp4" type="video/mp4">
+                                        <source src="https://www.html5rocks.com/en/tutorials/video/basics/Chrome_ImF.webm" type="video/webm">
+                                        <source src="https://www.html5rocks.com/en/tutorials/video/basics/Chrome_ImF.ogv" type="video/ogg">
+                                        Your browser doesn't support HTML5 video tag.
+                                    </video>
+                                </div>
+                
+                                <div class="col-lg-3 pl-5">
+                                    <div class="managment-text video-cap">
+                                        <h2>Organize <br>
+                                            your <span>finance!</span>
+                                        </h2>
+                                    
+                                        <p>
+                                            Automated invoice system for all your services & parts sale! Automatically shared with your customer and reflected on
+                                            your overall finance!
+
+                                        </p>
+
+                                        <p>
+                                            Auteev will generate quarterly & yearly financial reports, and you will have the benefit of automotive experts to view
+                                            your workshop data and help you grow!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="rain front-row"></div>
+                <div class="d-table w-100 h-100">
+                    <div class="d-table-cell" style="vertical-align: middle;">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <div class="managment-text video-cap px-5-custom">
+                                        <h2>about
+                                         <br><span>auteev</span>
+                                        </h2>
+                                    
+                                        <p>
+                                            Auteev was created and designed by automotive experts who understand the pitfalls of running service centers.
+                                            Communication between car owners and service garages always seems to be a problem.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="managment-text video-cap px-5-custom">
+                                        <h2>Our
+                                         <br><span>Mission</span>
+                                        </h2>
+                                    
+                                        <p>
+                                            To make the auto repair experience easier.
+                                            By managing and organizing internal repair centers processes along with streamlining communication between the car owner
+                                            and auto service repairman, customers are more satisfied and get the informative updates they need in a timely manner.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="managment-text video-cap px-5-custom">
+                                        <h2>It's Time <br> To Go 
+                                         <span>Digital</span>
+                                        </h2>
+                                    
+                                        <p>
+                                            Auteev is here to digitize your entire administrative workflow. Use it for your vehicle inspection checklist, all
+                                            required repair documents and even billing. Using Auteev is not only efficient, but eco-friendly too!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="rain front-row"></div>
+                <div class="d-table w-100 h-100">
+                    <div class="d-table-cell" style="vertical-align: middle;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="managment-text video-cap px-5">
+                                        <h2>Be <span>Informed</span>
+                                        </h2>
+                                    
+                                        <p>
+                                            Use Auteev dashboard to view the status & performance of your garage. </p>
+                                            <p>
+                                            Price management is another huge benefit of partnering with Auteev. Manage your labor rate and parts prices right inside
+                                            of our app.
+                                            </p>
+                                            
+                                            <p>Easy Monitor of your parts inventory! With low stock notification and much more!
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="managment-text video-cap px-5">
+                                        <h2>Be <span>Noticed</span>
+                                        </h2>
+                                    
+                                        <p>
+                                            To make the auto repair experience easier.
+                                            By managing and organizing internal repair centers processes along with streamlining communication between the car owner
+                                            and auto service repairman, customers are more satisfied and get the informative updates they need in a timely manner.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="managment-text video-cap px-5">
+                                        <h2>
+                                         <span>is here to<br>
+                                        simplify<bR>
+                                        auto repair<br>
+                                        communication</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="rain front-row"></div>
+                <div class="d-table w-100 h-100">
+                    <div class="d-table-cell" style="vertical-align: middle;">
+                        <div class="container-fluid">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-4">
+                                    <div class="managment-text video-cap px-5">
+                                        <h2>Every <span>Auteev</span>
+                                        partnered service
+                                        center gets to take
+                                        advantage of all
+                                        of the following 
+                                        </h2>
+                                    
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="auteev-list px-5">
+                                        <ol>
+                                            <li><span>01</span> Complete customer service tools</li>
+                                            <li><span>01</span> Auteev Desktop, Mobile and iPad App</li>
+                                            <li><span>01</span> Recovery services</li>
+                                            <li><span>01</span> Online Vehicle Appointment</li>
+                                            <li><span>01</span> Garage Management</li>
+                                            <li><span>01</span> Parts Inventory</li>
+                                            <li><span>01</span> Price Management</li>
+                                        </ol>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="rain front-row"></div>
+                <div class="d-table w-100 h-100">
+                    <div class="d-table-cell" style="vertical-align: middle;">
+                        <div class="container-fluid">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-4">
+                                    <div class="managment-text video-cap px-4">
+                                        <h2><span>Looking<br>
+                                        for more<bR>
+                                        assistance?</span> <br>
+                                        <span><strong>Our Pro members<br>
+                                        additionally receive</strong></span>
+                                        </h2>
+                                    
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="auteev-list px-5">
+                                        <ol>
+                                            <li><span>01</span> Complete customer service tools</li>
+                                            <li><span>01</span> Auteev Desktop, Mobile and iPad App</li>
+                                            <li><span>01</span> Recovery services</li>
+                                            <li><span>01</span> Online Vehicle Appointment</li>
+                                            <li><span>01</span> Garage Management</li>
+                                            <li><span>01</span> Parts Inventory</li>
+                                            <li><span>01</span> Price Management</li>
+                                        </ol>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="d-table w-100 h-100">
+                    <div class="d-table-cell" style="vertical-align: middle;">
+                        <div class="container-fluid">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-4">
+                                    <div class="contact-cap px-5">
+                                        <h2>contact us</h2>
+
+                                        <ul>
+                                            <li>
+                                                <span>whats app 24/7</span>
+                                                +971 000 000 0000
+                                            </li>
+                                            <li>
+                                                <span>Mobile</span>
+                                                +971 000 000 0000
+                                                <br>
+                                                +971 000 000 0000
+                                            </li>
+                                            <li>
+                                                <span>email</span>
+                                                support@auteev.ae
+                                            </li>
+                                        </ul>
+
+                                        <h4>follow us on</h4>
+                                        <ul class="social-left">
+                                            <li><a href=""><i class="fab fa-facebook-f fa-fw"></i></a></li>
+                                            <li><a href=""><i class="fab fa-twitter fa-fw"></i></a></li>
+                                            <li><a href=""><i class="fab fa-instagram fa-fw"></i></a></li>
+                                            <li><a href=""><i class="fab fa-youtube fa-fw"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <form class="contact-form">
+                                        <h4>For inquiries</h4>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="" class="form-control" placeholder="Name" /> 
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" name="" class="form-control" placeholder="Email" /> 
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="tel" name="" class="form-control" placeholder="Mobile" /> 
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <textarea name="" class="form-control" placeholder="Subject"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" name="" class="btn btn-dark btn-block">sned</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="d-table w-100 h-100 terms-slide">
+                    <div class="d-table-cell" style="vertical-align: bottom;">
+                        <div class="container-fluid">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6">
+                                    <div class="terms">
+                                        <h4>term & condition</h4>
+                                        <p>
+                                            car service in Dubai is the best way to get about this MiddleEastern metropolis, a city well known for its extreme
+                                            wealthand even more extreme heat. The city is known worldwide forits oil, manufacturing, and finance, and is built
+                                            specifically forcars. The city can be daunting for newcomers, so rely on ourair-conditioned limousine service in Dubai
+                                            as your preferredway to get around Dubai or as a city-to-city transfer fromDubai to Abu Dhabi. car service in Dubai is
+                                            the best way to get about this MiddleEastern metropolis, a city well known for its extreme wealthand even more extreme
+                                            heat. The city is known worldwide forits oil, manufacturing, and finance, and is built specifically forcars. The city
+                                            can be daunting for newcomers, so rely on ourair-conditioned limousine service in Dubai as your preferredway to get
+                                            around Dubai or as a city-to-city transfer fromDubai to Abu Dhabi.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="terms-bg">
+
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <!-- Add Navigation -->
+    </div>
+
+    <div class="main-line"></div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/vendor/jquery-3.5.1.min.js"></script>
+    <script src="assets/vendor/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/libs/lozad.js-master/dist/lozad.min.js"></script>
+    <script src="assets/libs/fancybox/jquery.fancybox.min.js"></script>
+    <script src="assets/libs/perfect-scrollbar-master/dist/perfect-scrollbar.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script><!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            speed: 1800,
+            parallax: true,
+            mousewheel: true,
+            touchRatio: 0,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            on: {
+                slideNextTransitionStart: function () {
+                    // alert('dsfds')
+                    /* do something */
+                        $('.wheel').addClass('rotating');
+                    
+                    // going up rotating-reverse
+                },
+                slideNextTransitionEnd: function() {
+                    $('.wheel').removeClass('rotating');
+                },
+                slidePrevTransitionStart: function () {
+                    $('.wheel').addClass('rotating-reverse');
+                },
+                slidePrevTransitionEnd: function() {
+                    $('.wheel').removeClass('rotating-reverse');
+                },
+                slideChange: function(e) {
+                    console.log(e.activeIndex);
+                    switch (e.activeIndex) {
+                        case 0:
+                            // alert('hie');
+                            // code block
+                            $('.car-moving').css("transition", "all 1.9s linear");
+                            $('.car-moving').css("right", "auto").css("left", '200px');
+                            $('.car-moving').css("z-index", "99");
+                            break;
+                        case 1:
+                            // alert('hie');
+                            // code block
+                            $('.car-moving').css("transition", "all 1.9s linear");
+                            $('.car-moving').css("right", "auto").css("left", '50%');
+                            setTimeout(function() {
+                                $('.car-moving').css("z-index", "99");
+                            }, 1000)
+                            break;
+                        case 2:
+                            // alert('hie3');
+                            // code block
+                            $('.car-moving').css("right", "auto").css("left", '50%');
+                            $('.car-moving').css("transition", "all 0.6s linear");
+                            $('.car-moving').css("z-index", "auto");
+                            break;
+                        case 3:
+                            // alert('hie3');
+                            // code block
+                            $('.car-moving').css("transition", "all 1.7s linear");
+                            $('.car-moving').css("right", "auto").css("left", '40%');
+                            $('.car-moving').css("z-index", "99");
+                            break;
+                        case 4:
+                            // alert('hie3');
+                            // code block
+                            $('.car-moving').css("transition", "all 1.9s linear");
+                            $('.car-moving').css("right", "auto").css("left", 'calc(100% - 600px)');
+                            $('.car-moving').css("z-index", "99");
+                            break;
+                        case 5:
+                            // alert('hie3');
+                            // code block
+                            $('.car-moving').css("transition", "all 1.9s linear");
+                            $('.car-moving').css("right", "auto").css("left", 'calc(100% - 600px)');
+                            $('.car-moving').css("z-index", "99");
+                            break;
+                        case 6:
+                            // alert('hie3');
+                            // code block
+                            $('.car-moving').css("transition", "all 1.9s linear");
+                            $('.car-moving').css("right", "auto").css("left", 'calc(100% - 600px)');
+                            $('.car-moving').css("z-index", "99");
+                            break;
+                        case 9:
+                            // alert('hie3');
+                            // code block
+                            $('.car-moving').css("transition", "all 1.9s linear");
+                            $('.car-moving').css("right", "auto").css("left", 'calc(100% - 600px)');
+                            $('.car-moving').css("z-index", "99");
+                            break;
+                        case 10:
+                            // alert('hie3');
+                            // code block
+                            $('.car-moving').css("transition", "all 1.9s linear");
+                            $('.car-moving').css("right", "auto").css("left", 'calc(100% - 600px)');
+                            $('.car-moving').css("z-index", "99");
+                            break;
+                        default:
+                        // code block
+                        $('.car-moving').css("transition", "all 1.9s linear");
+                        $('.car-moving').css("right", "auto").css("left", 'calc(100% - 600px)');
+                            $('.car-moving').css("z-index", "99");
+                    } 
+                }
+            }
+        });
+
+        $(window).resize(function() {
+            swiper.update();
+        })
+
+    </script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
